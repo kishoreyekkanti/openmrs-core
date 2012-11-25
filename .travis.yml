@@ -1,5 +1,8 @@
 language: java
-install: echo
+install: maven
+jdk:
+ - openjdk6
+ - Oracle JDK 7
 script:  mvn clean install
 
 notifications:
