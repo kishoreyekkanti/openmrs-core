@@ -1,0 +1,8 @@
+language: java
+install: echo
+script:  mvn clean install
+
+notifications:
+  email: false
+  irc: "irc.freenode.org"
+
