@@ -1,5 +1,4 @@
 language: java
-install: maven
 jdk:
  - openjdk6
  - Oracle JDK 7
