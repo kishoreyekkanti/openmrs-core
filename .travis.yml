@@ -3,7 +3,9 @@ jdk:
  - openjdk6
  - Oracle JDK 7
 script:  mvn clean install
-
+matrix:
+  allow_failures: 
+    - Oracle JDK 7
 notifications:
   email: false
   irc: "irc.freenode.org"
