@@ -8,5 +8,8 @@ matrix:
     - Oracle JDK 7
 notifications:
   email: false
-  irc: "irc.freenode.org"
-
+  irc:
+    channels:
+      - "irc.freenode.org#OpenMRS"
+    template:
+      - "[%{repository}] [%{commit}] [%{author}] %{message} - %{build_url}"
