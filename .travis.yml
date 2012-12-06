@@ -1,11 +1,11 @@
 language: java
 jdk:
  - openjdk6
- - Oracle JDK 7
-script:  mvn clean install
+ - oraclejdk7
+script: mvn clean install --batch-mode
 matrix:
   allow_failures: 
-    - Oracle JDK 7
+    - oraclejdk7
 notifications:
   email: false
   irc:
